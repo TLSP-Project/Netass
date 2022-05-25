@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>TLSP.Netass.Entities</id>
+    <version>1.0.0</version>
+    <authors>TLSP Dev</authors>
+    <description>Fuck Netass</description>
+    <license type="expression">GPL-3.0-or-later</license>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Text.Json" version="6.0.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <repository type="git" url="https://github.com/TLSPDev/Netass.git" branch="master" />
+    <projectUrl>https://github.com/TLSPDev/Netass</projectUrl>
+  	<copyright>Copyright © 2022 TLSP Dev.All Rights Reserved.</copyright>
+  </metadata>
+      <files>
+    <file src="bin\Release\" target="lib\" />
+  </files>
+</package>
