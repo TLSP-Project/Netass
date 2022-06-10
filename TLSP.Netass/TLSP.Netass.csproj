@@ -9,10 +9,10 @@
   <ItemGroup>
     <PackageReference Include="Nito.AsyncEx.Coordination" Version="5.1.2" />
     <PackageReference Include="RestSharp" Version="107.3.0" />
-    <PackageReference Include="TLSP.Common" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Common\TLSP.Common\TLSP.Common.csproj" />
     <ProjectReference Include="..\TLSP.Netass.Entities\TLSP.Netass.Entities.csproj" />
   </ItemGroup>
 
