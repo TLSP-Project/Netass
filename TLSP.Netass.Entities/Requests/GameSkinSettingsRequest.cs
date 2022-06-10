@@ -1,6 +1,6 @@
 ﻿
 
-namespace TLSP.Netass.Entities.Requests
+namespace TLSP.Netass.Entities
 {
     public class GameSkinSettingsRequest
     {
