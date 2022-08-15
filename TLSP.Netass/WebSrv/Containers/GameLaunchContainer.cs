@@ -9,17 +9,11 @@ namespace TLSP.Netass.WebSrv
         [WebSrvApi("/item-address/get")]
         public PostEntityDelegate<ServerAddressEntity, ItemIDRequest> GetNetGameServerAddress;
 
-
-
-
         [WebSrvApi("/game-auth-item-list/query/search-by-game")]
-
         public PostEntityDelegate<AuthItemEntity, AuthItemRequest> GetAuthItemList;
 
         [WebSrvApi("/game-patch-info")]
-
         public PostEntityDelegate<GameClientPatchEntity, GameVersionRequest> GetClientPatchInfo;
-
 
         [WebSrvApi("/client-library-info/check-change", Method.Post, EncryptionType.NormalEncryption)]
         public PostEntityDelegate<LibStateEntity, LibraryVersionRequest> GetLibraryChange;
